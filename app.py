@@ -6,8 +6,6 @@ python -m spacy download en_core_web_sm
 import spacy_streamlit
 import streamlit as st
 
-st.image(image='censusimg.jpg',caption='https://pixabay.com/illustrations/magnifying-glass-human-head-faces-1607208/')
-
 # allows tooltips to function in fullscreen
 st.markdown('<style>#vg-tooltip-element{z-index: 1000051}</style>',
              unsafe_allow_html=True)
